@@ -1,6 +1,6 @@
 {
-    "name": "mosaic-html",
-    "description": "Mosaic HTML template - Cruip.com",
+    "name": "te-app",
+    "description": "Display GDP and Population Data",
     "version": "1.0.0",
     "homepage": "https://cruip.com",
     "author": "Pasquale Vitiello",

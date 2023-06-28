@@ -11,7 +11,7 @@ flatpickr('.datepicker', {
   onReady: (selectedDates, dateStr, instance) => {
     // eslint-disable-next-line no-param-reassign
     instance.element.value = dateStr.replace('to', '-');
-    instance.element.value = "2010 - 2022";
+    instance.element.value = "2010 - 2020";
     const customClass = instance.element.getAttribute('data-class');
     instance.calendarContainer.classList.add(customClass);
   },

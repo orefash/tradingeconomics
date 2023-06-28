@@ -36,7 +36,6 @@ document.getElementById('sweden-check').checked = false;
 
 const baseUrl = "https://us-central1-te-fash.cloudfunctions.net/app";
 
-// async function getTableData(country, startYear = 2010, endYear = 2020) {
 async function getTableData(country, startYear, endYear, delay = false) {
 
     try {
